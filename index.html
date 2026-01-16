@@ -1,82 +1,146 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FUNNYCOM</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SUNGHO CHOI | Resume</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css" />
 </head>
+
 <body>
   <div id="container">
     <header>
-      <!-- 이름을 가장 위쪽에 -->
-      <h1>funnycom</h1>
-      <h2>Frontend Developer</h2>
+      <!-- 이름 / 타이틀 -->
+      <h1>최성호 (CHOI SUNGHO)</h1>
+      <h2>Finance AI · Data/AI Engineer</h2>
+      <!-- 지원분야: Finance AI -->
+      <!-- :contentReference[oaicite:3]{index=3} -->
     </header>
-    <!-- 내용 -->
+
     <main>
-      <!-- 화면을 좌우로 나눔 -->
+      <!-- LEFT -->
       <article id="left">
         <div id="pf-img">
-          <img src="./pf.png" alt="프로필 이미지">
+          <!-- pf.png는 그대로 사용 -->
+          <img src="./pf.png" alt="프로필 이미지" />
         </div>
 
         <!-- 자기 소개 -->
         <section>
-          <!-- 소개 내용은 <p>와 </p> 사이의 부분을 수정하세요 -->
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repellendus debitis ipsam tempore quia ad. Ducimus sint vel porro eos debitis veniam quis, repellat odio neque, cum voluptate, natus doloremque!</p>
+          <p>
+            Splunk·OpenSearch 기반 보안 데이터 솔루션 운영 경험을 바탕으로 대규모 로그 수집·정제·분석 환경을 구축해
+            데이터 처리 역량을 확보했습니다. 또한 QA 및 시연용 서버 구축 경험을 통해 시스템 안정성 검증과 운영 절차를 익혔고,
+            AI 시스템 개발에 필요한 데이터 엔지니어링·시스템 운영 역량을 갖추었습니다.
+          </p>
+          <!-- :contentReference[oaicite:4]{index=4} -->
 
-          <!-- sns 링크 부분 -->
-          <!-- href="" 부분의 링크와 내용을 수정하세요 -->
+          <!-- 연락처 / 링크 -->
           <ul id="sns">
             <li>
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <a href="mailto:your-email@example.com">your-email@example.com</a>              
-        </li>
+              <a href="mailto:98sungho@naver.com">98sungho@naver.com</a>
+            </li>
+            <li>
+              <i class="fa fa-phone" aria-hidden="true"></i>
+              <a href="tel:01093060260">010-9306-0260</a>
+            </li>
+            <!-- 깃허브/링크드인은 PDF에 없어서 placeholder로 유지 -->
             <li>
               <i class="fab fa-github" aria-hidden="true"></i>
-              <a href="https://github.com/gh-username">gh-username</a>              
+              <a href="https://github.com/gh-username" target="_blank" rel="noopener">gh-username</a>
             </li>
             <li>
               <i class="fab fa-linkedin" aria-hidden="true"></i>
-              <a href="https://linkedin.com/linkedin-username">linkedin-username</a>
+              <a href="https://linkedin.com/in/linkedin-username" target="_blank" rel="noopener">linkedin-username</a>
             </li>
-            </ul>
+          </ul>
+          <!-- :contentReference[oaicite:5]{index=5} -->
+        </section>
+
+        <!-- 자격/어학 -->
+        <section>
+          <h2>자격 · 어학</h2>
+          <dl>
+            <dt>SQLD (SQL개발자)</dt>
+            <dd>한국데이터산업진흥원 · 2021.04</dd>
+          </dl>
+          <dl>
+            <dt>OPIc (영어)</dt>
+            <dd>Intermediate Low · 2025.09</dd>
+          </dl>
+          <!-- :contentReference[oaicite:6]{index=6} -->
         </section>
       </article>
 
-      <artile id="right">
+      <!-- RIGHT (오타 artile -> article 수정) -->
+      <article id="right">
+        <!-- 경력 -->
         <section>
           <h2>경력(work)</h2>
-          <!-- 경력 내용 수정 -->
-            <dl>
-              <dt>회사 A : 2018 ~ 2020</dt>
-              <dd>회사에서 맡았던 업무</dd>
-              <dd>기타 사항</dd>
-            </dl>
-            <dl>
-              <dt>회사 B : 2020 ~ 2022</dt>
-              <dd>회사에서 맡았던 업무</dd>              
-            </dl>  
+          <dl>
+            <dt>(주)제이슨 · 2022.12.01 ~ 2023.12.20</dt>
+            <dd>정규직</dd>
+            <dd>보안 데이터 솔루션 운영(Splunk·OpenSearch), 로그 파이프라인 구축/정제/분석</dd>
+            <dd>QA 수행 및 시연용 서버 구축을 통한 안정성 검증</dd>
+          </dl>
+          <!-- :contentReference[oaicite:7]{index=7} :contentReference[oaicite:8]{index=8} -->
         </section>
+
+        <!-- 프로젝트 -->
+        <section>
+          <h2>프로젝트(projects)</h2>
+
+          <dl>
+            <dt>AI 기반 과학기술산업화 전 과정 통합 플랫폼 기획 연구 · 2025.05 ~ 2025.11</dt>
+            <dd>서비스 공백·중복 분석 및 데이터 흐름 구조화(TCP Matrix/Service Map)</dd>
+            <dd>AI 적용 신규 서비스 발굴 및 우선순위 도출(플랫폼 고도화 방향 제시)</dd>
+          </dl>
+          <!-- :contentReference[oaicite:9]{index=9} -->
+
+          <dl>
+            <dt>삼성전자 DS POC · 2023.10 ~ 2023.11</dt>
+            <dd>서버 환경에 보안 솔루션 구축/운영, 탐지 시나리오 작성</dd>
+            <dd>로그 기반 유출 징후 재현·검증</dd>
+          </dl>
+          <!-- :contentReference[oaicite:10]{index=10} -->
+        </section>
+
+        <!-- 기술 -->
         <section>
           <h2>다룰 수 있는 기술(skills)</h2>
-          <!-- 자신있는 기술 수정 -->
-          <p>HTML/CSS</p>
-          <p>Javascritpt</p>
-          <p>React</p>
-          <p>Github</p>
+          <p>Python · SQL</p>
+          <p>Data Engineering (Log Pipeline, ETL)</p>
+          <p>Splunk · OpenSearch</p>
+          <p>Elasticsearch · Kibana</p>
+          <p>NLP/LLM · Recommendation (Recformer, Sliding Window)</p>
+          <p>Git/GitHub</p>
         </section>
+
+        <!-- 학력 -->
         <section>
           <h2>학력(education)</h2>
-          <!-- 학력 수정 -->
-          <p>2018.02 - XX 대학교 졸업(전공: 컴퓨터공학)</p>
-          <p>2012.02 - XX 고등학교 졸업</p>
-          <p> ... </p>
+          <p>2014.03.03 - 2017.02.16 · 재현고등학교(서울) 졸업</p>
+          <p>2017.03.02 - 2023.02.16 · 상명대학교(서울) 컴퓨터과학과 학사 졸업</p>
+          <p>2024.03.04 - 2026.02.11 · 국민대학교 비즈니스IT전문대학원 석사(졸업예정)</p>
+          <!-- :contentReference[oaicite:11]{index=11} -->
         </section>
-      </artile>
+
+        <!-- 수상 -->
+        <section>
+          <h2>수상(awards)</h2>
+          <dl>
+            <dt>대상 · 국민대학교 산학협력단 · 2025.08.27</dt>
+            <dd>‘고난도 네거티브 샘플링을 통한 대조학습 기반 문장 임베딩 품질 향상 방법 및 시스템’</dd>
+          </dl>
+          <dl>
+            <dt>최우수논문상 · 한국지능정보시스템학회 · 2025.11.28</dt>
+            <dd>Recformer 기반 추천 모델 성능 향상(Sliding Window 적용, 지표 개선 검증)</dd>
+          </dl>
+          <!-- :contentReference[oaicite:12]{index=12} -->
+        </section>
+      </article>
     </main>
   </div>
 </body>
